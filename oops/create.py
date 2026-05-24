@@ -14,6 +14,7 @@ print(s2.name)
 
 s3 = Student("virat", 3, 95)
 print(s3.name)
+print(s1.attendance)
 
 print(s1.attendance)
 print(s2.attendance)
