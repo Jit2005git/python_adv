@@ -26,4 +26,3 @@ acc1.withdraw(2000)
 print("After withdraw 2000:", acc1.get_balance())
 
 print(acc1.get_balance())
-
