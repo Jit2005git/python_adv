@@ -1,4 +1,5 @@
 class Student:
+    school ="ABC School"
     # blueprint
     def __init__(self, name, marks, attendance):
         self.name = name
@@ -21,7 +22,7 @@ print(s2.name)
 
 s3 = Student("virat", 95, 80)
 print(s3.name)
-
+print(Student.school)
 
 # print(s1.attendance)
 # print(s2.attendance)
