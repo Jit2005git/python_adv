@@ -6,9 +6,11 @@ class Payment:
         print("Processing payment of:", self.amount)
 
 class CreditCardPayment(Payment):
-    pass
+    def pay(self):
+        print("Processing credit card payment of:", self.amount,";+2% PF")
 class UPIPayment(Payment):
-    pass
+    def pay(self):
+        print("Processing UPI payment of:", self.amount,"With No Fee")
 p1=CreditCardPayment(500)
 p1.pay()
 p2=UPIPayment(300)
