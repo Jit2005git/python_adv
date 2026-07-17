@@ -7,7 +7,7 @@ class Payment:
 
 class CreditCardPayment(Payment):
     def pay(self):
-        print("Processing credit card payment of:", self.amount,",+2% PF")
+        print("Processing credit card payment of:", self.amount,":,+2% PF") #polymorphism 
 class UPIPayment(Payment):
     def pay(self):
         print("Processing UPI payment of:", self.amount,"With No Fee")
