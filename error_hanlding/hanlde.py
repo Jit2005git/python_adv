@@ -9,3 +9,5 @@ except TypeError:
     print("Error: Invalid type. Please enter a valid number.")
 else:
     print('Result:', result)
+finally:
+    print("Execution completed...")
