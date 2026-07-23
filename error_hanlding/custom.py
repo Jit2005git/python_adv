@@ -8,3 +8,4 @@ try:
     check_age(15)
 except InvalidAgeError as e:
     print(f"Custom error Caught: {e}")
+    
