@@ -4,6 +4,12 @@
 # # file.write("Hello, World!")
 # file=open("fileHanlding\\input2.txt",  "a")#a append mode
 # file.write("\nappended text")
-file=open("fileHanlding\\input.txt3",  "x")
-file.write("Hello, India")
+# file=open("fileHanlding\\input.txt3",  "x")
+# file.write("Hello, India")
+# file.close()
+
+file=open("fileHanlding\\input.txt",  "r+")#r read mode
+content=file.read()
+file.write("\nHello, World! added using r+mode")
 file.close()
+print("File closed")
